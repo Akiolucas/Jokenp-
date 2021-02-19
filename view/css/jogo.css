@@ -69,6 +69,7 @@ h1{
 
  h4{
      text-align: center;
+     margin: 0;
  }
 
  .opcaomaquina{
@@ -162,4 +163,20 @@ footer{
 text-align: center;
 margin-top: 45px;
 margin-bottom: 45px;
+}
+
+.resultado-blocos{
+    max-width:350px;
+    border-radius: 10px;
+    padding-bottom: 45px;
+}
+
+.resultado-blocos img{
+    padding-bottom: 10px;
+   padding-top: 15px;
+}
+#areaResultado{
+    border-radius: 15px;
+    color:white;
+    background-image: linear-gradient(to bottom right, rgb(31, 153, 1), rgb(1, 7, 3));
 }

@@ -29,7 +29,7 @@ class jogarcontroller {
 
         // método da model
         $ganhador = $jogar->resultado();
-        include "view/home.php";
+        include "view/resultado.php";
 
         } catch (Excepction $e) {
             echo 'Exceção capturada: '.  $e->getCode();
