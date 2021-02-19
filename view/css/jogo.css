@@ -1,0 +1,165 @@
+body{
+    margin:0;
+    padding: 0;
+    background-image: linear-gradient(to bottom right, rgb(255, 17, 0), rgb(255, 251, 0));
+}
+h1{
+    text-align: center;
+}
+#personagem{
+   max-width: 350px;
+    border-radius: 10px;
+}
+.carousel-caption h5{
+    color: orange;
+    background-color: white;
+}
+.carousel-caption{
+    top: 0;
+    padding: 0;
+}
+.imagens{
+    padding-top: 30px;
+    border-bottom-left-radius: 13%;
+    border-bottom-right-radius: 13%;
+    margin-right: 15%;
+    margin-left: 15%;
+    width: 70%;
+}
+.legenda{
+   
+    margin-left: auto;
+    margin-right: auto;
+    left: 13%;
+    right: 13%;
+    margin-top: 5px; 
+    height: 10px;
+}
+
+#areaJogador{
+    border-radius: 15px;
+    color:white;
+    background-image: linear-gradient(to bottom right, rgb(31, 153, 1), rgb(1, 7, 3));
+}
+#opcaousuario{
+    max-width: 350px;
+     border-radius: 10px;
+ }
+ .personagemMaquina{
+     max-width:350px;
+     border-radius: 10px;
+     padding-bottom: 45px;
+     
+ }
+
+ .personagemMaquina img{
+     padding-bottom: 10px;
+     max-width: 250px;
+ }
+
+ .versus{
+    max-width:350px;
+    border-radius: 10px;
+    padding-bottom:45px;
+ }
+
+ .versus img{
+     padding-bottom: 10px;
+ }
+
+ h4{
+     text-align: center;
+ }
+
+ .opcaomaquina{
+    max-width:350px;
+    border-radius: 10px;
+    padding-bottom: 45px;
+ }
+
+ .opcaomaquina img{
+     padding-bottom: 10px;
+ }
+
+ #jogar{
+    width: 100%;
+     border: 1px solid black;
+     border-radius: 25px;
+     height: 70px;
+     background-image: linear-gradient(to  bottom,rgb(255, 51, 0),rgb(255, 105, 5));
+     font-size: 20pt;
+     margin-top: 55px;
+     margin-bottom: 10px;
+ }
+ @media only screen and (max-width: 767px) {
+   #jogar{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+   } 
+ }
+
+ #jogar:hover{
+    background-image: linear-gradient(to bottom left, rgb(249, 189, 32), rgb(92, 235, 64));
+ }
+.gradiente{
+    background-image: linear-gradient(to bottom right, rgb(249, 189, 32), rgb(245, 16, 19));
+    
+}
+
+.confirmar{
+    width: 60%;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%; 
+    margin-top: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.confirmar:hover{
+    background-image: linear-gradient(to bottom left, rgb(249, 189, 32), rgb(92, 235, 64));
+}
+
+ .inputRadio{
+    display:none;
+} 
+.escolido{
+      background-image: linear-gradient(to bottom right, rgb(211, 208, 191), rgb(70, 68, 68));
+      border-radius: 10px;
+      padding-bottom:20px;
+}
+
+.escolido input[class=confirmar]{
+display: none;
+}
+
+#txtSelecionado{
+    text-align: center;
+    color:rgb(97, 255, 5);
+    margin-top: 2px;
+    margin-bottom: 0;
+
+}
+
+#txtSelecionado2{
+    text-align: center;
+    color:rgb(97, 255, 5);
+    margin-top: 2px;
+    margin-bottom: 0;
+
+}
+.escolido2{
+    background-image: linear-gradient(to bottom right, rgb(211, 208, 191), rgb(70, 68, 68));
+    border-radius: 10px;
+    padding-bottom:20px;
+}
+
+.escolido2 input[class=confirmar]{
+display: none;
+}
+
+footer{
+text-align: center;
+margin-top: 45px;
+margin-bottom: 45px;
+}
