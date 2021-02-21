@@ -14,8 +14,8 @@
         $jogar->resultado();
     }
     else{
-    include_once "view/head.html";
-    include_once "view/home.html";
-    include_once "view/footer.html";
+
+    include_once "view/home.php";
+    
     }
 ?>

@@ -59,7 +59,7 @@
             case    $this->opcaoUsuario == 'pedra'   && $this->opcaoMaquina == 'tesoura' ||
                     $this->opcaoUsuario == 'papel'   && $this->opcaoMaquina == 'pedra' ||
                     $this->opcaoUsuario == 'tesoura' && $this->opcaoMaquina == 'papel':
-                return $ganhador = array("vitoria", $this->personagemUsuario,$this->personagemUsuario,$this->opcaoUsuario,$this->opcaoMaquina); break;
+                return $ganhador = array("vitória", $this->personagemUsuario,$this->personagemUsuario,$this->opcaoUsuario,$this->opcaoMaquina); break;
                 
             default:
                return $ganhador = array("erro","erro","erro","erro","erro");

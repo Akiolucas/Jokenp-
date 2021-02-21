@@ -28,14 +28,21 @@
                     <img class="mx-auto d-block imagens" src="view/images/<?=$ganhador[3].'.jpg';?>" alt=" imagem <?=$ganhador[3]; ?>" />
                 </div>
 
-                <div class="col-md-4 col-sm-12  resultado-blocos gradiente m-auto">
+                <div class="col-md-4 col-sm-12 resultado-blocos gradiente m-auto">
                     <h4><?=ucfirst($ganhador[0])?></h4>
-                    <img class="mx-auto d-block imagens" src="view/images/<?=$ganhador[1].'.jpg';?>" alt="imagem <?=$ganhador[1]; ?>" />
+                    <div class="flipper">
+                        <img class="mx-auto d-block imagens" src="view/images/<?=$ganhador[1].'.jpg';?>" alt="imagem <?=$ganhador[1]; ?>" />
+                    </div>
                 </div>
 
                 <div class="col-md-4 col-sm-12  resultado-blocos gradiente m-auto">
                     <h4><?=ucfirst($ganhador[4])?></h4>  
                     <img class="mx-auto d-block imagens" src="view/images/<?=$ganhador[4].'.jpg';?>" alt=" imagem <?=$ganhador[4]; ?>" />
+                </div>
+            </div>
+            <div class="row pt-4 pb-5 justify-content-center">
+                <div class="col-md-4 col-sm-12">
+                    <a href="index.php"><button class=" btn btn-lg btn-block gradiente">Jogar novamente</button></a>
                 </div>
             </div>
         </div>
