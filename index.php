@@ -6,7 +6,7 @@
        
         $classe = $classe.'controller';
        
-        include "controller/".$classe.'.php';
+        include "app/controller/".$classe.'.php';
         // instância o objeto da classe
         $jogar = new $classe();
         
@@ -15,7 +15,7 @@
     }
     else{
 
-    include_once "view/home.php";
+    include_once "app/view/home.php";
     
     }
 ?>
